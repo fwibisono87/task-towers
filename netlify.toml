@@ -1,0 +1,9 @@
+[dev]
+  command="yarn dev --host"
+  publish="build"
+
+[build]
+  functions = "functions"
+
+[functions]
+  node_bundler = "esbuild"
